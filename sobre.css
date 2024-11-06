@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+    position:  relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+a{text-decoration: none; cursor: pointer;}
+
+@keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+}
+
+.purple{
+    color: #9940B9;
+}
+
+.black{
+    color: black;
+}
+
+.logo-incio{
+    background-color: #9940B9;
+    width: 200px;
+    background-image: url(./assets/img/logo2.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #9940B9;
+}
+
+.buttons a{
+    margin: 20px;
+    font-family: Montserrat;
+    color: white;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+    size: 20px;
+}
+
+.buttons a:hover{
+    border-bottom: 2px solid white;
+}
+
+header .sel{
+    border-bottom: 2px solid white;
+    border-radius: 1px;
+}
+
+.seta i{
+    color: white;
+    size: 50px;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 4s;
+}
+.seta{
+    position: absolute;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+}
+
+.container-sobre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.organizer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.cont-photo{
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    background-image: url(./assets/img/photo-verde-eu.png);
+    width: 500px;
+    height: 500px;
+    border-radius:100%;
+    background-size: cover;
+
+}
+
+.span{
+    padding: 30px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+.container-sobre{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.exp{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+.exp h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.exp ul {
+    font-size: 30px;
+    list-style-type: disc; /* Garantir que usamos discos como marcadores */
+    list-style-position: inside; /* Faz o marcador ficar dentro da área do texto */
+    padding-left: 20px; /* Ajusta o espaçamento à esquerda */
+    line-height: 2;
+}
+
+ul li::marker {
+    color: #9940B9; /* Cor roxa para o marcador */
+}
+
+.tec{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tec h1{
+    margin-top: 90px;
+    font-size: 50px;
+    margin-bottom: 90px;
+}
+
+.org {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    flex-grow: 1;
+    padding-top: 0px;
+}
+
+.org div {
+    background-color: #9940B9;
+    width: 20vw;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.org img {
+    transition: 0.3s ease;
+    filter: grayscale(100%);
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.org div:hover img{
+    filter: grayscale(0%);
+    width: 130px;
+    height: 130px;
+}
+
+/* Seleciona a imagem dentro da 8ª div */
+.org div:nth-of-type(8) img {
+    object-fit: contain !important;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    
+}
+
+footer .container-final{
+    background-color: white;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: montserrat;
+    color: black;
+}
+
+.logo-final{
+    background-image: url(./assets/img/logo2.png);
+    width: 150px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+}
+
+.devs{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .container-sobre{
+        height: 1100px;
+        padding: 0;
+    }
+    .text{
+        font-size: 30px;
+    }
+
+    .organizer{
+        flex-direction: column;
+    }
+
+    .cont-photo{
+        width: 300px;
+        height: 300px;
+    }
+
+    .photo{
+        width: 300px;
+        height: 300px;
+    }
+    .span{
+        padding: 25px;
+        font-size: 15px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .exp ul {
+        font-size: 15px;
+    }
+
+    .logo-incio{
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .buttons{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .org div{
+        width: 45%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .org{
+        padding: 0px
+    }
+}
+
+@media screen and (max-width: 768px){
+    .org img{
+        filter: grayscale(0%);
+    }
+    
+}
+
+@media screen and (min-width: 3000px) {
+    .org div:nth-last-of-type(1),
+    .org div:nth-last-of-type(2){
+        width: 46.42%;
+    }
+    
+}
