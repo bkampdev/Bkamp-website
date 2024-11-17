@@ -5,3 +5,6 @@ RewriteRule ^(.*)$ $1.html [L]
 
 # Redirecionar a raiz para index.html
 RewriteRule ^$ index.html [L]
+
+# Página de erro 404 personalizada
+ErrorDocument 404 /404.html
