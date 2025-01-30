@@ -253,7 +253,6 @@ footer{
     flex-direction: column;
     background-color: black;
     position: relative;
-    
 }
 
 footer .container-final{
@@ -265,6 +264,7 @@ footer .container-final{
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding-bottom: 20px;
 }
 
 footer p{
