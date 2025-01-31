@@ -8,3 +8,9 @@ RewriteRule ^$ index.html [L]
 
 # Página de erro 404 personalizada
 ErrorDocument 404 /404.html
+
+# Redirecionar para a página 404.html quando acessarem o LICENSE
+RewriteRule ^LICENSE$ /404.html [L]
+
+# Redirecionar para a página 404.html quando acessarem o readme.md
+RewriteRule ^readme.md$ /404.html [L]
