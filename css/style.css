@@ -31,7 +31,7 @@ a{text-decoration: none; cursor: pointer;}
 .logo-incio{
     background-color: #9940B9;
     width: 200px;
-    background-image: url(./assets/img/logo2.png);
+    background-image: url(/assets/img/logo2.png);
     height: 50px;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@ header .sel{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url(./assets/img/bg-artes.png);
+    background-image: url(/assets/img/bg-artes.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -196,13 +196,13 @@ header .sel{
 }
 
 .id{
-    background-image: url(./assets/img/Projetando\ em\ um\ Tablet.jpg);
+    background-image: url(/assets/img/Projetando\ em\ um\ Tablet.jpg);
 }
 .md{
-    background-image: url(./assets/img/Purple_Satin.jpg.webp);
+    background-image: url(/assets/img/Purple_Satin.jpg.webp);
 }
 .wd{
-    background-image: url(./assets/img/11062b_abcafc9ab39b41aa976ebad0e170cc39~mv2.jpg.webp);
+    background-image: url(/assets/img/11062b_abcafc9ab39b41aa976ebad0e170cc39~mv2.jpg.webp);
 }
 
 .container-mot{
@@ -260,11 +260,11 @@ header .sel{
 }
 
 .img-fall{
-    background-image: url(./assets/video/42cd75_183d3001804948c9b6b934dc14691c2b~mv2.gif) ;
+    background-image: url(/assets/video/42cd75_183d3001804948c9b6b934dc14691c2b~mv2.gif) ;
 }
 
 .img-cube{
-    background-image: url(./assets/img/cubo_3D.png);
+    background-image: url(/assets/img/cubo_3D.png);
     background-size: cover;
 }
 
@@ -326,7 +326,7 @@ header .sel{
 .img-data{
     width: 75%;
     height: 600px;
-    background-image: url(./assets/img/data.png);
+    background-image: url(/assets/img/data.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ footer p{
 }
 
 .logo-final{
-    background-image: url(./assets/img/logo2.png);
+    background-image: url(/assets/img/logo2.png);
     width: 150px;
     height: 80px;
     background-size: contain;
