@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/bkamp-faviicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
     <style>
+        *{
+            transition: 1s;
+        }
+
         img {
-            width: 50%;
+            width: 100%;
+            height: 400px;
+            object-fit: contain;
         }
         h1 {
             font-size: 50px;
@@ -35,7 +42,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             font-size: 20px;
-            transition: 0.3s
+            transition: 0.5s
         }
         a:hover {
             background-color: black;
@@ -45,6 +52,25 @@
             font-size: 20px;
             color: #f3f3f3;
             text-align: center;
+        }
+
+        @media only screen and (max-width: 900px) {
+            img {
+            height: 200px;
+            }
+            h1 {
+                font-size: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            p{
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 15px;
+            }
+            a{
+                font-size: 15px;
+            }
         }
     </style>
 </head>
